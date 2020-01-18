@@ -4,9 +4,9 @@
 const path = require('path');
 
 const config = {
-    appid: '1', // miniprogram appid,
+    appid: 'wx961c99dfab2a85db', // miniprogram appid,
 
-    secret: '', // miniprogram secret
+    secret: '923db4b3a22347a5c913cec49c35484c', // miniprogram secret
 
     grant_type: 'authorization_code', // 授权类型
 

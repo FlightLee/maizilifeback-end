@@ -10,6 +10,6 @@ router.get(['/', 'index'], (req, res) => {
 
     res.end('success');
 })
-    .post('/login', controllers.sign.login);
+    .get('/login', controllers.sign.login);
 
 module.exports = router;
