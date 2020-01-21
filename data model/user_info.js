@@ -39,6 +39,10 @@ const user_infoSchema = new Schema({
         type: String,
         required: true
     },
+    session_key: {
+        type: String,
+        required: true
+    }
 });
 
 mongoose.model('user_info', user_infoSchema);

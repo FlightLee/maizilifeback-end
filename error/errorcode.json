@@ -1,0 +1,7 @@
+[
+    {
+        "errorcode": "-1",
+        "result": "调用auth.code2Session接口失败",
+        "tips": "查看queryString参数值是否正确"
+    }
+]
